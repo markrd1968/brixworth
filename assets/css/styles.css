@@ -1,0 +1,147 @@
+/* Body Styling */
+
+body {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.nor-brand {
+  margin: 0 15px;
+  width: 40px;
+  height: 40px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* Color schemes */
+
+.bg-clr-red {
+  background-color: #e51c237d;
+  color: #fafafa;
+}
+
+.bg-clr-orange {
+  background-color: #B2BEB5;
+  color: #000;
+}
+
+.bg-clr-white {
+  background-color: #fafafacf;
+}
+
+.bg-clr-dark {
+  background-color: #888383d4;
+  color: black;
+}
+
+/* Map styling */
+
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+body:after {
+  content: "";
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  left: 0;
+  right: 0;
+  z-index: -2;
+  background: url("../images/citybackground.jpg") center center;
+  background-size: cover;
+}
+
+/* Map area */
+
+.col-form-label,
+.form-control {
+  color: #000;
+}
+
+#city:focus,
+#attractionSelector:focus {
+  -webkit-box-shadow: inset 0 -2px 0 #fafafa;
+  box-shadow: inset 0 -2px 0 #fafafa;
+}
+
+#map {
+  height: 60vh !important;
+  width: 60%;
+}
+
+/* Table styling */
+
+.table th {
+  border: 0px;
+}
+
+.table th,
+.table td {
+  padding: 6px 3px 6px 3px;
+  background: #fafafa00;
+  color: #fafafa;
+}
+
+.table-light {
+  background: #fafafa00;
+}
+
+.table-link {
+  color: #fafafa;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.table-link:hover {
+  color: #fafafa;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.dropdown-item{
+  border-style: none;
+}
+
+/* Start of Footer */
+.footer-div {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.footer {
+  background: white;
+  color: #333333;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.footer-icons i {
+  color: #333333;
+  font-size: 1.4rem;
+  margin: 30px 5px 0 10px;
+}
+
+.footer-icons i:hover {
+  color: #af0000;
+}
+
+.footer p {
+  padding-top: 10px;
+  margin-bottom: 0;
+}
+
+
+
+/* End of Footer */
